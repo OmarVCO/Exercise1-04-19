@@ -78,6 +78,10 @@ section {
     width: min(90%, 70.5rem);
 }
 
+.projects{
+    flex-direction: column;
+}
+
 .split{
     display: flex;
     flex-direction: column;
