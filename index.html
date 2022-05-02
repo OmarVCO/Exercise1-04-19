@@ -1,75 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="dropmenu.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid Term project</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    
 </head>
 <body>
-<div style="height:100%;display:flex;">
-    <header>
-       div <a class="leftmenu">Home</a>
-        <a class="leftmenu">Explore</a>
-        <a class="leftmenu">Notifications</a>
-        <a class="leftmenu">Messages</a>
-        <a class="leftmenu">Profile</a>
-        <a class="leftmenu">More</a>
-
-
-
+    <header class="bg-light text-center">
+        <div class="container container--narrow">
+            <h1>Welcome to my portfolio.</h1>
+            <p>During the last couples of months it has been complicated to present myself and my skills during and interview. <br><br> decided to create this portfolio so I can show better my skills and experience.</p>
+        </div>
     </header>
-    <main>
-        56565
-    </main>
-</div>
 
-<main>
-</main>
+    <section>
+        <div class="container">
+            <h2 class="text-center">Title for columns</h2>
+            <div class="split">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ad culpa neque, animi dicta velit esse. Architecto quia debitis molestias pariatur delectus harum. Magnam, alias.
+                    </p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias, aspernatur necessitatibus autem vel repellat tenetur quo dicta eos natus eaque voluptas assumenda voluptatem itaque.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="bg-dark">
+        <div class="container">
+            <div class="split">
+                <div>
+                    <h2>Skills</h2>
+                    <p>During these years I have develops different skills, find some of them in this section.</p>
+                </div>
+                <div>
+                    <img src='images/Leadership.png' alt="image1">
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script>
-
-    function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-    window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-        }
-        }
-    }
-    }
-</script>
-
-<script>
-
-    function myFunction2() {
-    document.getElementById("myDropdown2").classList.toggle("show");
-    }
-
-    window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-        }
-        }
-    }
-    }
-</script>
-
+    <section class="bg-primary">
+        <div class="container">
+            <div class="split">
+                <div>
+                    <img src="images/G7.png" alt="image2">
+                </div>
+                <div>
+                    <h2>Projects</h2>
+                    <p>On this section you will find some of my past design projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer>
+    <p>Copyright - Omar Segura </p>
+</footer>
 </body>
+
 </html>
